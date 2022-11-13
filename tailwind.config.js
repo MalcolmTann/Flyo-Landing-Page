@@ -7,7 +7,6 @@ module.exports = {
         openSans: "'Open Sans', sans-serif",
         railway: "'Raleway', sans-serif",
       },
-
       colors: {
         intro: '#1c2431',
         main: '#181f2a',
