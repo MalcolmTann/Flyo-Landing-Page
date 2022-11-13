@@ -10,27 +10,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="text-white font-openSans bg-intro text-sm">
-  <main class="px-5">
-    <div class="pt-5 mb-36">
+<body class="font-openSans">
+  <main class="px-5 leading-relaxed text-sm bg-intro text-white">
+    <div class="pt-5 mb-32">
       <header class="flex justify-between items-center">
         <img class="w-20" src="images/logo.svg" alt="Flyo Logo">
         <ul class="flex gap-5 font-railway">
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
+          <a href="#" title="Features">
+            <li>Features</li>
+          </a>
+          <a href="#" title="Team">
+            <li>Team</li>
+          </a>
+          <a href="#" title="Sign In">
+            <li>Sign In</li>
+          </a>
         </ul>
       </header>
       <div class="text-center mt-14">
       <img src="images/illustration-intro.png" alt="Folder Illustration">
       <h1 class="mt-8 font-railway text-2xl font-semibold leading-normal">All your files in one secure location, accessible anywhere.</h1>
-      <p class="mt-4 px-5 leading-relaxed">Fylo stores all your most important files in one secure location. Access them wherever 
+      <p class="mt-4">Fylo stores all your most important files in one secure location. Access them wherever 
         you need, share and collaborate with friends family, and co-workers.</p>
-      <button class="mt-8 py-3 px-20 bg-blue-400 rounded-full">Get Started</button>
+      <a href="#" title="Get Started">
+        <button class="mt-8 py-3 px-20 bg-blue-400 rounded-full">Get Started</button>
+      </a>
       </div>
 
     </div>
-    <div class="flex flex-wrap gap-28 text-center leading-relaxed px-2 mb-36">
+    <div class="flex flex-wrap gap-28 text-center px-2 mb-36">
       <div>
         <img class="mx-auto" src="images/icon-access-anywhere.svg" alt="Computer & Phone Illustration">
         <h2 class="mt-10 font-railway text-lg font-semibold">Access your files, anywhere</h2>
@@ -59,12 +67,17 @@
 
     <div class="mb-32">
       <img src="images/illustration-stay-productive.png" alt="productivty illustration">
-      <h2> Stay productive, wherever you are</h2>
-      <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-        storage needs.</p>
-      <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-        attachments required.</p>
-      <button>See how Fylo works</button>
+      <div class="mt-10 flex flex-col gap-4">
+        <h2 class="font-railway text-lg font-semibold">Stay productive, wherever you are</h2>
+        <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+          storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+          attachments required.</p>
+        <a class="flex gap-1 items-center" href="#" title="See How Flyo Works">
+          <button>See how Fylo works</button>
+          <img class="w-4 h-4" src="images/icon-arrow.svg" alt="arrow">
+        </a>
+      </div>
     </div>
 
     <div class="mb-32">
