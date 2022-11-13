@@ -3,6 +3,11 @@ module.exports = {
   content: ['./public/*.html'],
   theme: {
     extend: {
+      fontFamily: {
+        openSans: "'Open Sans', sans-serif",
+        railway: "'Raleway', sans-serif",
+      },
+
       colors: {
         intro: '#1c2431',
         main: '#181f2a',
@@ -12,6 +17,7 @@ module.exports = {
         gradient: 'linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 100%)',
         error: '#ff4242',
       },
+
     },
   },
   plugins: [],
