@@ -24,7 +24,9 @@ module.exports = {
       maxWidth: {
         '2xs': '12rem',
       },
-
+      screens: {
+        'xl': '1440px',
+      }
     },
   },
   plugins: [],

@@ -10,12 +10,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="font-openSans text-white leading-relaxed text-sm">
+<body class="font-openSans text-white leading-relaxed text-sm lg:text-base">
 
-  <header class="px-5 pt-5  bg-intro md:pt-7 md:px-8">
+  <header class="px-5 pt-5  bg-intro md:pt-7 md:px-8 lg:pt-10 lg:px-12 xl:px-14">
     <nav class="flex justify-between items-center">
       <img class="w-20 md:w-28" src="images/logo.svg" alt="Flyo Logo">
-      <ul class="flex gap-5 font-railway">
+      <ul class="flex gap-5 font-railway lg:gap-10">
         <a href="#" title="Features">
           <li>Features</li>
         </a>
@@ -33,10 +33,10 @@
 
     <!-- landing -->
     <section class="bg-intro mb-32 pt-16 px-5 text-center">
-      <div class="mx-auto max-w-md md:max-w-xl">
+      <div class="mx-auto max-w-md md:max-w-xl xl:max-w-2xl">
         <img src="images/illustration-intro.png" alt="Folder Illustration">
-        <h1 class="mt-8 font-railway text-2xl font-semibold leading-normal md:text-3xl">All your files in one secure location, accessible anywhere.</h1>
-        <p class="mt-4 px-5 md:px-20 md:mt-8">Fylo stores all your most important files in one secure location. Access them wherever 
+        <h1 class="mt-8 font-railway text-2xl font-semibold leading-normal md:text-3xl xl:text-4xl">All your files in one secure location, accessible anywhere.</h1>
+        <p class="mt-4 px-5 md:px-20 md:mt-8 xl:px-24">Fylo stores all your most important files in one secure location. Access them wherever 
           you need, share and collaborate with friends family, and co-workers.</p>
         <a href="#" title="Get Started">
           <button class="mt-6 py-3 px-20 bg-blue rounded-full">Get Started</button>
@@ -45,10 +45,10 @@
     </section>
 
     <!-- content wrapper -->
-    <div class="px-5">
+    <div class="px-5 lg:px-10">
 
       <!-- features -->
-      <section class="grid grid-cols-1 gap-28 items-center justify-center text-center px-2 mb-36 mx-auto max-w-md md:grid-cols-2 md:max-w-3xl md:gap-24">
+      <section class="grid grid-cols-1 gap-28 items-center justify-center text-center px-2 mb-36 mx-auto max-w-md md:grid-cols-2 md:max-w-3xl lg:max-w-4xl lg:px-18">
         <div>
           <img class="mx-auto" src="images/icon-access-anywhere.svg" alt="Computer & Phone Illustration">
           <h2 class="mt-8 font-railway text-lg font-semibold">Access your files, anywhere</h2>
@@ -72,10 +72,10 @@
       </section>
 
       <!-- productive -->
-      <section class="mb-40 grid grid-cols-1 gap-2 justify-center items-center md:grid-cols-2 md:gap-4">
+      <section class="mb-40 grid grid-cols-1 gap-2 justify-center items-center md:grid-cols-2 md:gap-4 lg:gap-6">
         <img src="images/illustration-stay-productive.png" alt="productivty illustration">
         <div class="mt-10 flex flex-col gap-4">
-          <h2 class="font-railway text-lg font-semibold">Stay productive, wherever you are</h2>
+          <h2 class="font-railway text-lg font-semibold lg:text-3xl">Stay productive, <span class="inline-block lg:block">wherever you are</span></h2>
           <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
             storage needs.</p>
           <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
@@ -89,9 +89,9 @@
 
       <!-- testimonials -->
       <section class="pb-36 px-5">
-        <img class="-mb-2 pl-2 w-10 h-8" src="images/bg-quotes.png" alt="quotes">
+        <img class="-mb-2 pl-2 w-10 h-8 lg:w-12 lg:h-10 lg:pl-0" src="images/bg-quotes.png" alt="quotes">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
-          <div class="bg-test rounded-md p-6">
+          <div class="bg-test rounded-md p-6 lg:px-4 lg:py-6">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             <div class="flex mt-6 gap-2">
@@ -102,7 +102,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-test rounded-md p-6">
+          <div class="bg-test rounded-md p-6 lg:px-4 lg:py-6">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             <div class="flex mt-6 gap-2">
@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-test rounded-md p-6">
+          <div class="bg-test rounded-md p-6 lg:px-4 lg:py-6">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             <div class="flex mt-6 gap-2">
@@ -128,7 +128,7 @@
       </section>
 
       <!-- Early Access -->
-      <article class="-mb-44 mx-auto relative z-10 max-w-2xl">
+      <article class="-mb-44 mx-auto relative z-10 max-w-2xl lg:-mb-24">
         <div class="bg-intro drop-shadow-xl rounded-lg py-8 px-6 text-center">
           <h2 class="font-railway text-lg font-semibold mb-4">Get early access today</h2>
           <p class="mx-auto md:max-w-xl">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
@@ -137,7 +137,7 @@
             <form>
               <input class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 max-w-md md:w-96" type="email" placeholder="email@example.com">
             </form>
-            <button class="py-3 px-10 w-full bg-blue rounded-full mx-auto max-w-xs md:max-w-2xs md:px-6">Get Started For Free</button>
+            <button class="py-3 px-10 w-full bg-blue rounded-full mx-auto max-w-xs md:max-w-2xs md:px-4">Get Started For Free</button>
           </div>
         </div>
       </article>
@@ -146,9 +146,9 @@
 
   <!-- footer -->
   <footer class="bg-footer pb-12">
-    <img class="pt-64 pl-10 lg:pl-16" src="images/logo.svg" alt="Flyo Logo">
+    <img class="pt-64 pl-10 lg:pt-44 lg:pl-14" src="images/logo.svg" alt="Flyo Logo">
 
-    <div class="px-10 mt-10 grid grid-cols-1 gap-5 lg:grid-cols-4 lg:px-16">
+    <div class="px-10 mt-10 grid grid-cols-1 gap-5 lg:mt-8 lg:grid-cols-4 lg:px-14">
 
       <div class="flex gap-6">
         <img class="w-4 h-4 mt-1" src="images/icon-location.svg" alt="location">
@@ -167,7 +167,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-10 justify-center lg:flex-row lg:gap-20">
+      <div class="flex flex-col gap-10 justify-center lg:flex-row lg:gap-18">
         <ul>
           <h3 class="mb-1">About Us</h3>
           <a href="#" title="Jobs">
