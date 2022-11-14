@@ -12,9 +12,9 @@
 </head>
 <body class="font-openSans text-white leading-relaxed text-sm">
 
-  <header class="px-5 pt-5 bg-intro z-0">
+  <header class="px-5 pt-5  bg-intro md:pt-7 md:px-8">
     <nav class="flex justify-between items-center">
-      <img class="w-20" src="images/logo.svg" alt="Flyo Logo">
+      <img class="w-20 md:w-28" src="images/logo.svg" alt="Flyo Logo">
       <ul class="flex gap-5 font-railway">
         <a href="#" title="Features">
           <li>Features</li>
@@ -31,48 +31,48 @@
 
   <main class="bg-main">
 
-    <section 
-    style="background-image: url('images/bg-curvy-mobile.svg');"
-    class="bg-intro mb-32 pt-16 px-5 text-center bg-bottom bg-no-repeat justify-center">
-      <img src="images/illustration-intro.png" alt="Folder Illustration">
-      <h1 class="mt-8 font-railway text-2xl font-semibold leading-normal">All your files in one secure location, accessible anywhere.</h1>
-      <p class="mt-4 px-5">Fylo stores all your most important files in one secure location. Access them wherever 
-        you need, share and collaborate with friends family, and co-workers.</p>
-      <a href="#" title="Get Started">
-        <button class="mt-8 py-3 px-20 bg-blue rounded-full">Get Started</button>
-      </a>
+    <!-- landing -->
+    <section class="bg-intro mb-32 pt-16 px-5 text-center">
+      <div class="mx-auto max-w-md md:max-w-xl">
+        <img src="images/illustration-intro.png" alt="Folder Illustration">
+        <h1 class="mt-8 font-railway text-2xl font-semibold leading-normal md:text-3xl">All your files in one secure location, accessible anywhere.</h1>
+        <p class="mt-4 px-5 md:px-20 md:mt-8">Fylo stores all your most important files in one secure location. Access them wherever 
+          you need, share and collaborate with friends family, and co-workers.</p>
+        <a href="#" title="Get Started">
+          <button class="mt-6 py-3 px-20 bg-blue rounded-full">Get Started</button>
+        </a>
+      </div>
     </section>
 
+    <!-- content wrapper -->
     <div class="px-5">
 
-      <section class="grid grid-cols-1 md:grid-cols-2 gap-28 text-center px-2 mb-36">
+      <!-- features -->
+      <section class="grid grid-cols-1 gap-28 items-center justify-center text-center px-2 mb-36 mx-auto max-w-md md:grid-cols-2 md:max-w-3xl md:gap-24">
         <div>
           <img class="mx-auto" src="images/icon-access-anywhere.svg" alt="Computer & Phone Illustration">
-          <h2 class="mt-10 font-railway text-lg font-semibold">Access your files, anywhere</h2>
-          <p class="mt-2">The ability to use a smartphone, tablet, or computer to access your account means you
-            files follow you everywhere.</p>
+          <h2 class="mt-8 font-railway text-lg font-semibold">Access your files, anywhere</h2>
+          <p class="mt-2">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-security.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-10 font-railway text-lg font-semibold">Security you can trust</h2>
-          <p class="mt-2">2-factor authentication and user-controlled encryption are just a couple of the security 
-            features we allow to help secure your files.</p>
+          <h2 class="mt-8 font-railway text-lg font-semibold">Security you can trust</h2>
+          <p class="mt-2">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-collaboration.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-10 font-railway text-lg font-semibold">Real-time collaboration</h2>
-          <p class="mt-2">Securely share files and folders with friends, family and colleagues for live collaboration. 
-            No email attachments required</p>
+          <h2 class="mt-8 font-railway text-lg font-semibold">Real-time collaboration</h2>
+          <p class="mt-2">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-any-file.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-10 font-railway text-lg font-semibold">Store any type of file</h2>
-          <p class="mt-2">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-            file types to be securely stored and shared.</p>
+          <h2 class="mt-8 font-railway text-lg font-semibold">Store any type of file</h2>
+          <p class="mt-2">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
         </div>
       </section>
 
-      <section class="mb-40">
+      <!-- productive -->
+      <section class="mb-40 grid grid-cols-1 gap-2 justify-center items-center md:grid-cols-2 md:gap-4">
         <img src="images/illustration-stay-productive.png" alt="productivty illustration">
         <div class="mt-10 flex flex-col gap-4">
           <h2 class="font-railway text-lg font-semibold">Stay productive, wherever you are</h2>
@@ -87,6 +87,7 @@
         </div>
       </section>
 
+      <!-- testimonials -->
       <section class="pb-36 px-5">
         <img class="-mb-2 pl-2 w-10 h-8" src="images/bg-quotes.png" alt="quotes">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs leading-relaxed">
@@ -126,58 +127,59 @@
         </div>
       </section>
 
-      <article class="-mb-44 relative z-10">
+      <!-- Early Access -->
+      <article class="-mb-44 mx-auto relative z-10 max-w-2xl">
         <div class="bg-intro drop-shadow-xl rounded-lg py-8 px-6 text-center">
           <h2 class="font-railway text-lg font-semibold mb-4">Get early access today</h2>
-          <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+          <p class="mx-auto md:max-w-xl">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
             questions, our support team would be happy to help you.</p>
-          <div class="mt-8 flex flex-col gap-6">
+          <div class="mt-8 flex flex-col gap-6 md:flex-row md:gap-2">
             <form>
-              <input class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300" type="email" placeholder="email@example.com">
+              <input class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 max-w-md md:w-96" type="email" placeholder="email@example.com">
             </form>
-            <button class="py-3 px-10 w-full bg-blue rounded-full">Get Started For Free</button>
+            <button class="py-3 px-10 w-full bg-blue rounded-full mx-auto max-w-xs md:max-w-2xs md:px-6">Get Started For Free</button>
           </div>
         </div>
       </article>
     </div>
   </main>
 
+  <!-- footer -->
   <footer class="bg-footer pb-12">
-    <img class="pt-60 pl-10" src="images/logo.svg" alt="Flyo Logo">
-    <div class="px-10 mt-10 flex flex-col gap-8">
+    <img class="pt-64 pl-10 lg:pl-16" src="images/logo.svg" alt="Flyo Logo">
 
-      <div class="flex flex-col gap-5 mb-8">
-        <div class="flex gap-6">
-          <img class="w-4 h-4 mt-1" src="images/icon-location.svg" alt="location">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua</p>
+    <div class="px-10 mt-10 grid grid-cols-1 gap-5 lg:grid-cols-4 lg:px-16">
+
+      <div class="flex gap-6">
+        <img class="w-4 h-4 mt-1" src="images/icon-location.svg" alt="location">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua</p>
+      </div>
+
+      <div class="flex flex-col gap-5 mb-14 lg:mx-auto">
+        <div class="flex gap-6 items-center">
+          <img class="w-4 h-4" src="images/icon-phone.svg" alt="phone">
+          <p>+1-543-123-4567</p>
         </div>
-
-        <div class="flex flex-col gap-5">
-          <div class="flex gap-6 items-center">
-            <img class="w-4 h-4" src="images/icon-phone.svg" alt="phone">
-            <p>+1-543-123-4567</p>
-          </div>
-          <div class="flex gap-6 items-center">
-            <img class="w-5 h-4" src="images/icon-email.svg" alt="email">
-            <p>example@fylo.com</p>
-          </div>
+        <div class="flex gap-6 items-center">
+          <img class="w-5 h-4" src="images/icon-email.svg" alt="email">
+          <p>example@fylo.com</p>
         </div>
       </div>
 
-      <ul>
-        <h3 class="mb-1">About Us</h3>
-        <a href="#" title="Jobs">
-          <li class="pt-2">Jobs</li>
-        </a>
-        <a href="#" title="Press">
-          <li class="pt-2">Press</li>
-        </a>
-        <a href="#" title="Blog">
-          <li class="pt-2">Blog</li>
-        </a>
-      </ul>
-
+      <div class="flex flex-col gap-10 justify-center lg:flex-row lg:gap-20">
+        <ul>
+          <h3 class="mb-1">About Us</h3>
+          <a href="#" title="Jobs">
+            <li class="pt-2">Jobs</li>
+          </a>
+          <a href="#" title="Press">
+            <li class="pt-2">Press</li>
+          </a>
+          <a href="#" title="Blog">
+            <li class="pt-2">Blog</li>
+          </a>
+        </ul>
         <ul>
           <h3 class="mb-1">Contact Us</h3>
           <a href="#" title="Terms">
@@ -187,8 +189,9 @@
             <li class="pt-2">Privacy</li>
           </a>
         </ul>
+      </div>
 
-      <div class="mt-8">
+      <div class="mt-12 lg:mt-0">
         <ul class="flex gap-3 justify-center items-center">
           <li class="border rounded-full p-2">
             <a href="#">
@@ -209,7 +212,6 @@
           </li>
         </ul>
       </div>
-
     </div>
   </footer>
 </body>
