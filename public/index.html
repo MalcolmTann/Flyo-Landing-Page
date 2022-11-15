@@ -15,14 +15,14 @@
   <header class="px-5 pt-10 bg-intro md:pt-7 md:px-8 lg:px-12 2xl:px-16">
     <nav class="flex justify-between items-center">
       <img class="w-20 md:w-28" src="images/logo.svg" alt="Flyo Logo">
-      <ul class="flex gap-5 font-railway lg:gap-10 2xl:gap-14">
-        <a href="#" title="Features">
+      <ul class="flex gap-5 font-railway md:gap-10 2xl:gap-14">
+        <a class="transition duration-300 hover:font-semibold hover:underline" href="#" title="Features">
           <li>Features</li>
         </a>
-        <a href="#" title="Team">
+        <a class="transition duration-300 hover:font-semibold hover:underline" href="#" title="Team">
           <li>Team</li>
         </a>
-        <a href="#" title="Sign In">
+        <a class="transition duration-300 hover:font-semibold hover:underline" href="#" title="Sign In">
           <li>Sign In</li>
         </a>
       </ul>
@@ -32,16 +32,16 @@
   <main class="bg-main">
 
     <!-- landing -->
-    <section class="bg-intro mb-80 pt-16 text-center relative lg:mb-28 2xl:mb-0 2xl:pt-20">
-      <div id="intro-bg-js" class="bg-bottom bg-no-repeat pb-24 lg:pb-96 2xl:pb-[32rem] 2xl:bg-[length:100%_43%]" style="background-image: url('images/bg-curvy-mobile.svg');">
-        <img class="px-5 mx-auto max-w-md md:max-w-lg xl:max-w-2xl" src="images/illustration-intro.png" alt="Folder Illustration">
+    <section class="bg-intro mb-80 pt-16 text-center relative md:mb-28 xl:mb-16 2xl:mb-0 2xl:pt-20">
+      <div id="intro-bg-js" class="bg-bottom bg-no-repeat pb-24 md:pb-72 md:bg-[length:100%_33%] xl:pb-96 xl:bg-[length:100%_35%] 2xl:pb-[32rem] 2xl:bg-[length:100%_43%]" style="background-image: url('images/bg-curvy-mobile.svg');">
+        <img class="px-5 mx-auto md:max-w-lg xl:max-w-2xl" src="images/illustration-intro.png" alt="Folder Illustration">
       </div>
-      <div class="absolute right-0 left-0 px-5 mx-auto -mt-16 max-w-md md:max-w-lg lg:-mt-[22rem] xl:max-w-2xl 2xl:-mt-[30rem]">
+      <div class="absolute right-0 left-0 px-5 mx-auto -mt-16 max-w-md md:max-w-lg md:-mt-64 xl:-mt-[22rem] xl:max-w-2xl 2xl:-mt-[30rem]">
         <h1 class="font-railway text-2xl font-semibold leading-normal xl:text-3xl xl:leading-normal 2xl:text-4xl 2xl:leading-snug">All your files in one secure location, accessible anywhere.</h1>
         <p class="mt-4 px-5 md:px-20 md:mt-5 xl:mt-8 2xl:2xl:leading-normal">Fylo stores all your most important files in one secure location. Access them wherever 
           you need, share and collaborate with friends family, and co-workers.</p>
         <a href="#" title="Get Started">
-          <button class="mt-6 py-3 px-20 bg-blue rounded-full">Get Started</button>
+          <button class="mt-6 py-3 px-20 bg-gradient-to-r from-cyan to-blue rounded-full transition-colors duration-300 hover:bg-cyan">Get Started</button>
         </a>
       </div>
     </section>
@@ -82,9 +82,9 @@
             storage needs.</p>
           <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
             attachments required.</p>
-          <a class="flex gap-2 items-center text-cyan border-b border-cyan w-fit pb-1" href="#" title="See How Flyo Works">
+          <a class="flex gap-2 items-center text-cyan border-b border-cyan w-fit pb-1 transition-colors duration-300 hover:text-white hover:border-white" href="#" title="See How Flyo Works">
             <button>See how Fylo works</button>
-            <img class="w-4 h-4" src="images/icon-arrow.svg" alt="arrow">
+            <svg class="transition-all duration-300 hover:fill-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#62E0D9" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g></svg>
           </a>
         </div>
       </section>
@@ -140,7 +140,7 @@
               <input class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 peer mx-auto max-w-md 2xl:max-w-xl 2xl:text-sm" type="email" placeholder="email@example.com">
               <p class="invisible peer-invalid::visible text-error text-sm absolute top-12 left-4 md:top-14">Please enter a valid email address</p>
             </form>
-            <button class="py-3 px-10 w-full bg-blue rounded-full max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
+            <button class="py-3 px-10 w-full bg-gradient-to-r from-cyan to-blue rounded-full max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
           </div>
         </div>
       </article>
@@ -150,15 +150,12 @@
   <!-- footer -->
   <footer class="bg-footer pb-12 xl:pb-24 xl:text-sm">
     <img class="pt-64 pl-10 xl:pt-44 xl:pl-14 2xl:pl-28" src="images/logo.svg" alt="Flyo Logo">
-
     <div class="px-10 mt-10 grid grid-cols-1 gap-5 xl:mt-8 xl:grid-cols-4 xl:px-14 2xl:pr-0 2xl:pl-28 2xl:gap-0">
-
       <div class="flex gap-6">
         <img class="w-4 h-4 mt-1" src="images/icon-location.svg" alt="location">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
           dolore magna aliqua</p>
       </div>
-
       <div class="flex flex-col gap-5 mb-14 xl:mx-auto">
         <div class="flex gap-6 items-center">
           <img class="w-4 h-4" src="images/icon-phone.svg" alt="phone">
@@ -169,10 +166,11 @@
           <a href="mailto: examlpe@fylo.com" title="Email">example@fylo.com</a>
         </div>
       </div>
-
       <div class="flex flex-col gap-10 justify-around xl:flex-row xl:gap-18 2xl:justify-evenly">
         <ul>
-          <h3 class="mb-1">About Us</h3>
+          <a class="transition duration-300 hover:font-semibold" href="#" title="About Us">
+            <h3 class="mb-1">About Us</h3>
+          </a>
           <a href="#" title="Jobs">
             <li class="pt-2">Jobs</li>
           </a>
@@ -184,7 +182,9 @@
           </a>
         </ul>
         <ul>
-          <h3 class="mb-1">Contact Us</h3>
+          <a class="transition-all duration-300 hover:font-semibold" href="#" title="Contact Us">
+            <h3 class="mb-1">Contact Us</h3>
+          </a>
           <a href="#" title="Terms">
             <li class="pt-2">Terms</li>
           </a>
@@ -193,7 +193,6 @@
           </a>
         </ul>
       </div>
-
       <div class="mt-12 lg:mt-0">
         <ul class="flex gap-3 justify-center items-center">
           <li class="border rounded-full p-2">
