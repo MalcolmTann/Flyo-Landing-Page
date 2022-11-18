@@ -10,21 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
-<body class="font-openSans text-white leading-relaxed text-sm xl:text-base">
+<body class="font-openSans text-gray-300 leading-relaxed font-light text-sm xl:text-base">
 
   <header class="px-5 pt-10 bg-intro md:pt-14 md:px-10 lg:px-12 2xl:px-16">
     <nav class="flex justify-between items-center">
-      <img class="w-20 md:w-28" src="images/logo.svg" alt="Flyo Logo">
+      <a href="#" title="Flyo Logo"><img class="w-20 md:w-28" src="images/logo.svg" alt="Flyo Logo"></a>
       <ul class="flex gap-5 font-railway md:gap-12">
-        <a class="transition duration-300 hover:font-semibold hover:underline" href="#" title="Features">
-          <li>Features</li>
-        </a>
-        <a class="transition duration-300 hover:font-semibold hover:underline" href="#" title="Team">
-          <li>Team</li>
-        </a>
-        <a class="transition duration-300 hover:font-semibold hover:underline hover:scale-90" href="#" title="Sign In">
-          <li>Sign In</li>
-        </a>
+          <li><a class="transition-all duration-200 hover:text-white hover:underline" href="#" title="Features">Features</a></li>
+          <li><a class="transition-all duration-200 hover:text-white hover:underline" href="#" title="Team">Team</a></li>
+          <li><a class="transition-all duration-200 hover:text-white hover:underline hover:scale-90" href="#" title="Sign In">Sign In</a></li>
       </ul>
     </nav>
   </header>
@@ -37,11 +31,11 @@
         <img class="px-5 mx-auto md:max-w-lg xl:max-w-2xl" src="images/illustration-intro.png" alt="Folder Illustration">
       </div>
       <div class="absolute right-0 left-0 px-5 mx-auto -mt-16 max-w-md md:max-w-lg md:-mt-64 xl:-mt-[22rem] xl:max-w-2xl">
-        <h1 class="font-railway text-2xl font-semibold leading-normal xl:text-3xl xl:leading-normal 2xl:text-4xl">All your files in one secure location, accessible anywhere.</h1>
+        <h1 class="font-railway font-bold text-white text-2xl leading-normal xl:text-3xl xl:leading-normal 2xl:text-4xl">All your files in one secure location, accessible anywhere.</h1>
         <p class="mt-4 px-5 md:px-20 md:mt-5 xl:mt-8 2xl:leading-normal">Fylo stores all your most important files in one secure location. Access them wherever 
           you need, share and collaborate with friends family, and co-workers.</p>
         <a href="#" title="Get Started">
-          <button class="mt-6 py-3 px-20 bg-gradient-to-r from-cyan to-blue rounded-full transition-colors duration-300 bg-cyan">Get Started</button>
+          <button class="mt-6 py-3 px-20 text-white bg-gradient-to-r from-cyan to-blue bg-size-200 bg-pos-0 rounded-full transition-colors duration-700 hover:bg-pos-100 hover:to-cyan">Get Started</button>
         </a>
       </div>
     </section>
@@ -53,38 +47,40 @@
       <section class="grid grid-cols-1 gap-28 items-center justify-center text-center px-2 mb-36 mx-auto max-w-md md:grid-cols-2 md:max-w-4xl 2xl:max-w-6xl 2xl:gap-32 2xl:px-20 2xl:mb-40">
         <div>
           <img class="mx-auto" src="images/icon-access-anywhere.svg" alt="Computer & Phone Illustration">
-          <h2 class="mt-8 font-railway text-lg font-semibold xl:text-2xl">Access your files, anywhere</h2>
+          <h2 class="mt-8 font-railway font-bold text-lg text-white xl:text-2xl">Access your files, anywhere</h2>
           <p class="mt-2 xl:mt-3">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-security.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-8 font-railway text-lg font-semibold xl:text-2xl">Security you can trust</h2>
+          <h2 class="mt-8 font-railway text-lg font-bold text-white  xl:text-2xl">Security you can trust</h2>
           <p class="mt-2 xl:mt-3">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-collaboration.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-8 font-railway text-lg font-semibold xl:text-2xl">Real-time collaboration</h2>
+          <h2 class="mt-8 font-railway font-bold text-lg text-white xl:text-2xl">Real-time collaboration</h2>
           <p class="mt-2 xl:mt-3">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required</p>
         </div>
         <div>
           <img class="mx-auto" src="images/icon-any-file.svg" alt="Checkmark in Shield Crest">
-          <h2 class="mt-8 font-railway text-lg font-semibold xl:text-2xl">Store any type of file</h2>
+          <h2 class="mt-8 font-railway font-bold text-lg text-white xl:text-2xl">Store any type of file</h2>
           <p class="mt-2 xl:mt-3">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
         </div>
       </section>
 
-      <!-- productive -->
+      <!-- productivity -->
       <section class="mb-40 grid grid-cols-1 gap-2 justify-center items-center mx-auto md:grid-cols-2 md:gap-4 xl:gap-12 xl:max-w-6xl">
         <img class="" src="images/illustration-stay-productive.png" alt="productivty illustration">
         <div class="mt-10 flex flex-col gap-4 2xl:max-w-xl">
-          <h2 class="font-railway text-lg font-semibold xl:text-3xl 2xl:leading-tight 2xl:text-4xl">Stay productive, <span class="inline-block lg:block">wherever you are</span></h2>
+          <h2 class="font-railway font-bold text-lg text-white md:text-xl xl:text-3xl 2xl:leading-tight 2xl:text-4xl">Stay productive, <span class="inline-block xl:block">wherever you are</span></h2>
           <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
             storage needs.</p>
           <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email 
             attachments required.</p>
-          <a class="flex gap-2 items-center text-cyan border-b border-cyan w-fit pb-1 transition-colors duration-300 hover:text-white hover:border-white" href="#" title="See How Flyo Works">
-            <button>See how Fylo works</button>
-            <svg class="transition-all duration-300 hover:fill-white" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#62E0D9" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g></svg>
+          <a class="group" href="#" title="See How Flyo Works">
+            <button class="flex gap-2 items-center text-cyan border-b border-cyan w-fit pb-1 transition-all duration-300 hover:text-white hover:border-white">
+              See how Fylo works
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/></filter></defs><g fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use class="fill-cyan transition-all duration-300 group-hover:fill-white" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"/></g></svg>
+            </button>
           </a>
         </div>
       </section>
@@ -132,83 +128,74 @@
       <!-- Early Access -->
       <article class="-mb-44 mx-auto relative z-10 text-sm max-w-2xl lg:-mb-24 2xl:max-w-3xl 2xl:-mb-28">
         <div class="bg-intro drop-shadow-xl rounded-lg py-8 px-6 text-center xl:py-10 2xl:px-12 2xl:leading-normal">
-          <h2 class="font-railway text-lg font-semibold mb-5 xl:text-3xl">Get early access today</h2>
+          <h2 class="font-railway text-lg font-bold text-white mb-5 xl:text-3xl">Get early access today</h2>
           <p class="xl:px-6">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
             questions, our support team would be happy to help you.</p>
           <div class="mt-9 flex flex-col gap-6 md:flex-row md:gap-4 2xl:justify-between">
-            <form class="md:basis-8/12 2xl:basis8/12 relative">
-              <input class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 peer mx-auto max-w-md 2xl:max-w-xl 2xl:text-sm" type="email" placeholder="email@example.com">
-              <p class="invisible peer-invalid::visible text-error text-sm absolute top-12 left-4 md:top-14">Please enter a valid email address</p>
+            <form id="form" action="#" class="md:basis-8/12 2xl:basis8/12 relative">
+              <input id="email" type="text" onsubmit="ValidateEmail(document.form.input)" placeholder="email@example.com" class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 peer mx-auto max-w-md 2xl:max-w-xl 2xl:text-sm">
+              <p id="error" class="invisible peer-invalid::visible text-error text-sm absolute top-12 left-4 md:top-14">Please enter a valid email address</p>
             </form>
-            <button class="py-3 px-10 w-full bg-gradient-to-r from-cyan to-blue rounded-full max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
+            <button class="py-3 px-10 w-full text-white bg-gradient-to-r from-cyan to-blue rounded-full transition-colors duration-500 hover:to-cyan max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
           </div>
         </div>
       </article>
+
     </div>
   </main>
 
   <!-- footer -->
   <footer class="bg-footer pb-12 xl:pb-24 xl:text-sm">
-    <img class="pt-64 pl-10 xl:pt-44 xl:pl-14 2xl:pl-28" src="images/logo.svg" alt="Flyo Logo">
+    <a href="#" title="Flyo Logo"><img class="pt-64 pl-10 xl:pt-44 xl:pl-14 2xl:pl-28" src="images/logo.svg" alt="Flyo Logo"></a>
     <div class="px-10 mt-10 grid grid-cols-1 gap-5 xl:mt-8 xl:grid-cols-4 xl:px-14 2xl:pr-0 2xl:pl-28 2xl:gap-0">
       <div class="flex gap-6">
         <img class="w-4 h-4 mt-1" src="images/icon-location.svg" alt="location">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-          dolore magna aliqua</p>
+        <p class="transition duration-200 hover:text-white"><a href="#" title="Address">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua</a></p>
       </div>
       <div class="flex flex-col gap-5 mb-14 xl:mx-auto">
         <div class="flex gap-6 items-center">
           <img class="w-4 h-4" src="images/icon-phone.svg" alt="phone">
-          <a href="tel:+1-543-123-4567" title="Telephone Number">+1-543-123-4567</a>
+          <a class="transition duration-200 hover:text-white"href="tel:+1-543-123-4567" title="Telephone Number">+1-543-123-4567</a>
         </div>
         <div class="flex gap-6 items-center">
           <img class="w-5 h-4" src="images/icon-email.svg" alt="email">
-          <a href="mailto: examlpe@fylo.com" title="Email">example@fylo.com</a>
+          <a class="transition duration-200 hover:text-white" href="mailto: examlpe@fylo.com" title="Email">example@fylo.com</a>
         </div>
       </div>
+
       <div class="flex flex-col gap-10 justify-around xl:flex-row xl:gap-18 2xl:justify-evenly">
         <ul>
-          <a class="transition duration-300 hover:font-semibold" href="#" title="About Us">
-            <h3 class="mb-1">About Us</h3>
-          </a>
-          <a href="#" title="Jobs">
-            <li class="pt-2">Jobs</li>
-          </a>
-          <a href="#" title="Press">
-            <li class="pt-2">Press</li>
-          </a>
-          <a href="#" title="Blog">
-            <li class="pt-2">Blog</li>
-          </a>
+          <h3 class="mb-1 transition duration-200 hover:text-white"><a href="#" title="About Us">About Us</a></h3>
+          <li class="pt-2 transition duration-200 hover:text-white"><a href="#" title="Jobs">Jobs</a></li>
+          <li class="pt-2 transition duration-200 hover:text-white"><a href="#" title="Press">Press</a></li>          
+          <li class="pt-2 transition duration-200 hover:text-white"><a href="#" title="Blog">Blog</a></li>
         </ul>
         <ul>
-          <a class="transition-all duration-300 hover:font-semibold" href="#" title="Contact Us">
-            <h3 class="mb-1">Contact Us</h3>
-          </a>
-          <a href="#" title="Terms">
-            <li class="pt-2">Terms</li>
-          </a>
-          <a href="#" title="Privacy">
-            <li class="pt-2">Privacy</li>
-          </a>
+          <h3 class="mb-1 transition duration-200 hover:text-white"><a href="#" title="Contact Us">Contact Us</a></h3> 
+          <li class="pt-2 transition duration-200 hover:text-white"><a href="#" title="Terms">Terms</a></li>        
+          <li class="pt-2 transition duration-200 hover:text-white"><a href="#" title="Privacy">Privacy</a></li>
         </ul>
       </div>
+
       <div class="mt-12 lg:mt-0">
         <ul class="flex gap-3 justify-center items-center">
-          <li class="border rounded-full p-2">
-            <a href="#">
-              <svg class="fill-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <li>
+            <a href="#" title="Facebook">
+              <svg class="border p-2 rounded-full w-9 h-9 fill-white transition-all duration-300 hover:border-cyan hover:fill-cyan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
                 <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
               </svg>
             </a>
           </li>
-          <li class="border rounded-full p-2">
-            <svg class="fill-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
-            </svg>
+          <li>
+            <a href="#" title="Twitter Logo">
+              <svg class="border p-2 rounded-full w-9 h-9 fill-white transition-all duration-300 hover:border-cyan hover:fill-cyan" hover:fill-cyan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+              </svg>
+            </a>
           </li>
-          <li class="border rounded-full p-2">
-            <svg class="fill-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <li>
+            <svg class="border p-2 rounded-full w-9 h-9 fill-white transition-all duration-300 hover:border-cyan hover:fill-cyan" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
             </svg>
           </li>

@@ -20,3 +20,12 @@ function ChangeContent() {
 }
 
 ChangeContent();
+
+function ValidateEmail() {
+    
+    var form = document.getElementById('form');
+    var email = document.getElementById('email');
+    var text = document.getElementById('text');
+
+    
+}

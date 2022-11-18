@@ -23,10 +23,17 @@ module.exports = {
       maxWidth: {
         '2xs': '12rem',
       },
+      fontWeight: {
+        light: '400',
+        bold: '700'
+      },
       screens: {
         '2xl': '1440px',
-      }
+      },
     },
+  },
+  variants: {
+    fill: ['hover', 'focus'],
   },
   plugins: [],
 }
