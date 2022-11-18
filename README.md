@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-Tailwindcss
+Styling content with Tailwindcss
 ```html
   <header class="px-5 pt-10 bg-intro md:pt-14 md:px-10 lg:px-12 2xl:px-16">
     <nav class="flex justify-between items-center">
@@ -56,7 +56,7 @@ Tailwindcss
   </header>
 ```
 
-How to set custom styles using the config file
+How to set custom styling with the config file
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -85,7 +85,7 @@ module.exports = {
 }
 ```
 
-Email Validation using JavaScript
+Email Validation through JavaScript
 ```js
 
 ```
@@ -93,6 +93,8 @@ Email Validation using JavaScript
 ### Continued development
 
 - I want to continue learning and familiarizing myself with new technologies and frameworks to keep up to date with the fast-paced and evolving tech industry.  
+
+- I always want to be improving my skillset in JavaScript, as it is the most universial front-end language that will help me excel the most in my field of work. 
 
 ### Useful resources
 
@@ -102,6 +104,6 @@ Email Validation using JavaScript
 ## Author
 
 - Malcolm Tan
-- Website - [malcolm-tan.com](https://malcolm-tan.com/)
+- [malcolm-tan.com](https://malcolm-tan.com/)
 - [LinkedIn](www.linkedin.com/in/malcolmtan-)
 
