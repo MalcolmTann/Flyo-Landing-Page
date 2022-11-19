@@ -30,6 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View
 <br>
 ![](./images/desktop-ss.jpg)
 
