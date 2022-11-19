@@ -19,7 +19,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Live Site
 
-
+[Live Site](https://malcolmtann.github.io/Flyo-Landing-Page/)
 
 ### The challenge
 
@@ -30,7 +30,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<br>
+![](./images/desktop-ss.jpg)
+
+Tablet View
+<br>
+![](./images/tablet-ss.jpg)
+
+Mobile View
+<br>
+![](./images/mobile-ss.jpg)
 
 ## My process
 
