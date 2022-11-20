@@ -132,11 +132,11 @@
           <p class="xl:px-6">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
             questions, our support team would be happy to help you.</p>
           <div class="mt-9 flex flex-col gap-6 md:flex-row md:gap-4 2xl:justify-between">
-            <form id="form" action="#" class="md:basis-8/12 2xl:basis8/12 relative">
-              <input id="email" type="text" onsubmit="ValidateEmail(document.form.input)" placeholder="email@example.com" class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 peer mx-auto max-w-md 2xl:max-w-xl 2xl:text-sm">
-              <p id="error" class="invisible peer-invalid::visible text-error text-sm absolute top-12 left-4 md:top-14">Please enter a valid email address</p>
+            <form name="form" action="#" class="md:basis-8/12 2xl:basis8/12 relative">
+              <input name="email" type="email" placeholder="email@example.com" class="w-full p-4 rounded-full text-xs text-black placeholder-gray-300 peer mx-auto max-w-md 2xl:max-w-xl 2xl:text-sm">
+              <p id="error" class="hidden text-error text-sm absolute top-12 left-4 md:top-14">Please enter a valid email address</p>
             </form>
-            <button class="py-3 px-10 w-full text-white bg-gradient-to-r from-cyan to-blue rounded-full transition-colors duration-500 hover:to-cyan max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
+            <button onclick="ValidateEmail(document.form.email)" class="py-3 px-10 w-full text-white bg-gradient-to-r from-cyan to-blue rounded-full transition-colors duration-500 hover:to-cyan max-w-xs mx-auto md:mx-0 md:px-6 md:basis-4/12 2xl:basis-4/12">Get Started For Free</button>
           </div>
         </div>
       </article>

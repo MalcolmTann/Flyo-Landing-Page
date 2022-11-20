@@ -25,12 +25,17 @@ function ChangeContent() {
 ChangeContent();
 
 
-// Email Validation
-function ValidateEmail() {
-    
-    var form = document.getElementById('form');
-    var email = document.getElementById('email');
-    var text = document.getElementById('text');
+// Email Vlidation
+function ValidateEmail(inputText) {
 
+    let chars = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     
+    if(inputText.value.match(chars)) {
+        console.log('true');
+        document.getElementById('error').classList.add = 'hidden';
+    }
+    else {
+        console.log('false');
+        document.getElementById('error').classList.remove = 'hidden';
+    }
 }
